@@ -430,7 +430,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 35px 0 20px 0;
+  padding: 5px 0 20px 0;
   background-color: #ffffff;
   border-radius: 5px;
   margin: 45px 10px;
@@ -439,15 +439,21 @@ a:focus {
 }
 
 .work_section .work_container .box .img-box {
-  width: 150px;
+  
 }
 
-.work_section .work_container .box .img-box img {
-  width: 100%;
+.img-novedades {
+  width: 95%;
+  text-align: center;
 }
+
+/* .work_section .work_container .box .img-box img {
+  width: 100%;
+} */
 
 .work_section .work_container .box .name {
   margin-top: 10px;
+  color: #000000;
 }
 
 .work_section .work_container .box.b-1, .work_section .work_container .box.b-3 {
