@@ -133,7 +133,7 @@ body {
   height: 4px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-color: #ff4f5a;
+  background-color: #004e92;
   border-radius: 5px;
 }
 
@@ -375,7 +375,7 @@ a:focus {
   background-color: #ff4f5a;
 }
 
-.service_section::before {
+/* .service_section::before {
   content: "";
   width: 200px;
   height: 175px;
@@ -385,8 +385,9 @@ a:focus {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   background-size: cover;
+ 
   background-image: url(../images/worker.png);
-}
+} */
 
 .work_section {
   /*background-color: #f10b1a;*/
@@ -405,6 +406,8 @@ a:focus {
   background-color: #ffffff;
 }
 
+
+
 .work_section .work_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -417,6 +420,23 @@ a:focus {
       flex-wrap: wrap;
   padding: 45px 0;
 }
+
+.work_section .productos{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0px;
+}
+
+
+
+
 
 .work_section .work_container .box {
   width: 275px;
@@ -439,9 +459,7 @@ a:focus {
           box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
 }
 
-.work_section .work_container .box .img-box {
-  
-}
+
 
 .img-novedades {
   width: 95%;
@@ -714,6 +732,8 @@ a:focus {
 .footer_section a {
   color: #171717;
 }
+
+
 
 
 
