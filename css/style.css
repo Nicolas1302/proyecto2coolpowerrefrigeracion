@@ -1,3 +1,28 @@
+/*responsive de Bootstrap 
+xs: 0,
+sm: 576px a 767px
+md: 768px a 991px +
+lg: 992px a 1199px +
+xl: 1200px, +
+xxl: 1400px +
+
+margin y padding
+
+m - for classes that set margin
+p - for classes that set padding
+Where sides is one of:
+
+t - for classes that set margin-top or padding-top
+b - for classes that set margin-bottom or padding-bottom
+s - (start) for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+e - (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
+x - for classes that set both *-left and *-right
+y - for classes that set both *-top and *-bottom
+blank - for classes that set a margin or padding on all 4 sides of the element
+
+*/
+
+
 @font-face {
   font-family: 'Bungee_Inline';
   src: url(../font/Bungee_Inline/BungeeInline-Regular.ttf);
@@ -221,7 +246,6 @@ a:focus {
 }
 
 .imagen-servicio {
-  border: 3px solid #020202;
   border-radius: 8px;
 }
 
@@ -293,8 +317,11 @@ a:focus {
 /* end slider section */
 .bg {
   /* background-image: url(../images/fondo1.jpeg);*/
-  background-color: #000000;
-  background-repeat:round; 
+  /* background-color: #000000; */
+  background-image: url(../images/fondo1.jpeg);
+  background-repeat:round;
+  background-attachment: fixed;
+  background-position: 50% 50%;
   
 
 
@@ -310,7 +337,12 @@ a:focus {
 }
 
 .service_section {
+  /* background-image: url(../images/fondo-nuestroservicios4.jpeg);
+  background-repeat:round; */
   padding-top: 20px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 0 #777777, 1px -1px 0 #777777, -1px 1px 0 #777777, -1px -1px 0 #777777, 1px 0px 0 #777777, 0px 1px 0 #777777, -1px 0px 0 #777777, 0px -1px 0 #777777;
   text-align: center;
   position: relative;
 }
@@ -320,7 +352,7 @@ a:focus {
 }
 
 .service_section .service_container {
-  padding: 45px 0 75px 0;
+  padding: 45px 0 0 0;
 }
 
 .service_section .box.b-2 .detail-box {
@@ -356,6 +388,8 @@ a:focus {
 
 .service_section .img-box img {
   height: 200px;
+  -webkit-box-shadow: -1px 5px 27px 18px #000000; 
+  box-shadow: -1px 5px 27px 18px #000000;
 }
 
 .service_section .detail-box {
@@ -390,11 +424,8 @@ a:focus {
 } */
 
 .work_section {
-  /*background-color: #f10b1a;*/
-  background: #000428;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  /* background-color: #f10b1a; */
+   /* fallback for old browsers */ 
 
 }
 
@@ -733,8 +764,67 @@ a:focus {
   color: #171717;
 }
 
+.espacioletra {
+  width: 400px;
+}
 
+/* iconos flotantes redes sociales */
 
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+
+.facebook {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:120px;
+  right:40px;
+  background-color:#4378ec;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:101;
+}
+
+.facebook-icon {
+  margin-top:17px;
+}
+
+.instagram {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:200px;
+  right:40px;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:101;
+}
+
+.instagram-icon {
+  margin-top:17px;
+}
 
 
 /* end footer section*/
