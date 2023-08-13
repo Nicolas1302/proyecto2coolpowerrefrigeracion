@@ -137,6 +137,73 @@ body {
   padding-left: 25px;
 }
 
+
+
+/* buscador */
+
+.nav-buscador {
+	position: absolute;
+  margin-top: 80px;
+	left: 75%;
+	top: 45%;
+	transform: translate(-50%,-50%);
+	padding: 10px;
+  z-index: 102;
+}
+
+.input-buscador {
+	outline: none;
+	box-sizing: border-box;
+	height: 40px;
+	width: 0px;
+	padding: 0 20px;
+	color: #000;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid #004e92;
+	transition: all .7s ease;
+}
+
+::placeholder {
+	color: grey;
+}
+
+.btn-buscador {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 60px;
+	height: 60px;
+  background: #004e92;
+	/* background: #D50000; */
+	line-height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+}
+
+
+
+.btn-buscador i {
+	font-size: 30px;
+	color: white;
+	line-height:60px;
+	transition: all .7s ease;
+}
+
+.nav-buscador:hover input {
+	width: 350px;
+}
+
+.nav-buscador:hover i{
+	transform: rotate(-360deg);
+}
+
+.btn-buscador:hover{
+	background: #2f02f7;
+}
+
 .header_section .nav_container {
   margin: 0 auto;
 }
@@ -424,6 +491,7 @@ a:focus {
 } */
 
 .work_section {
+  padding-top: 90px;
   /* background-color: #f10b1a; */
    /* fallback for old browsers */ 
 
@@ -469,7 +537,8 @@ a:focus {
 
 
 
-.work_section .work_container .box {
+.work_section .box {
+  color: #000000;
   width: 275px;
   height: 275px;
   display: -webkit-box;
@@ -491,6 +560,16 @@ a:focus {
 }
 
 
+
+#listaArticulos {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+}
+
+.articulo {
+  list-style: none;
+}
 
 .img-novedades {
   width: 95%;
@@ -770,8 +849,6 @@ a:focus {
 
 
 
-
-
 /* iconos flotantes redes sociales */
 
 .whatsapp {
@@ -854,6 +931,10 @@ a:focus {
 .tiktok-logo:hover {
   width: 51px;
   height: 51px; 
+}
+
+.filtro{
+  display: none;
 }
 
 

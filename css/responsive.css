@@ -2,6 +2,9 @@
     .service_section .img-box img {
         height: 150px;
     }
+    #listaArticulos {
+        grid-template-columns: auto auto auto;
+    }
 }
 
 @media (max-width: 1060px) {
@@ -31,6 +34,10 @@
 
     .service_section .box.b-3 .detail-box {
         width: auto;
+    }
+
+    #listaArticulos {
+        grid-template-columns: auto auto;
     }
 
 
@@ -159,6 +166,10 @@
     .tiktok-logo:hover {
     width: 31px;
     height: 31px; 
+    }
+
+    #listaArticulos {
+        grid-template-columns: auto;
     }
 
 }
