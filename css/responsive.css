@@ -170,7 +170,60 @@
 
     #listaArticulos {
         grid-template-columns: auto;
+        margin:0;
+        padding: 0;
     }
+
+    .input-buscador {
+        outline: none;
+        box-sizing: border-box;
+        height: 20px;
+        width: 0px;
+        padding: 0 10px;
+        color: #000;
+        border-radius: 50px;
+        font-size: 20px;
+        border: 1px solid #004e92;
+        transition: all .7s ease;
+    }
+
+    ::placeholder {
+        color: rgb(194, 160, 160);
+    }
+
+    .btn-buscador {
+        right: 0px;
+        top: 0px;
+        width: 43px;
+        height: 43px;
+        background: #004e92;
+        /* background: #D50000; */
+        border-radius: 50%;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+
+
+    .btn-buscador i {
+        font-size: 20px;
+        color: white;
+        line-height:40px;
+        transition: all .7s ease;
+    }
+
+    .nav-buscador:hover input {
+        width: 250px;
+    }
+
+    .nav-buscador:hover i{
+        transform: rotate(-360deg);
+    }
+
+    .btn-buscador:hover{
+        background: #2f02f7;
+    }
+
 
 }
 
