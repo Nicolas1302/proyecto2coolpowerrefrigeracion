@@ -1,4 +1,17 @@
-@media (max-width: 1199px) {
+@media (max-width: 1300px) {
+    .top-bar{
+        font-size: 13px;
+        line-height: 26px;
+    }
+}
+
+
+
+@media (max-width: 1199px){
+    .top-bar{
+        font-size: 11px;
+        line-height: 26px;
+    }
     .service_section .img-box img {
         height: 150px;
     }
@@ -8,9 +21,14 @@
 }
 
 @media (max-width: 1060px) {
+    .top-bar{
+        display: none;
+    }
+    
     .service_section .img-box img {
         height: 130px;
     }
+    
 }
 
 @media (max-width: 992px) {
