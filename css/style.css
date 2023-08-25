@@ -1075,6 +1075,10 @@ a:focus {
   display: none;
 }
 
+.row {
+    --bs-gutter-x: 0;
+  }
+
 .carroucel1 {
   background: #155b8a; 
 }
