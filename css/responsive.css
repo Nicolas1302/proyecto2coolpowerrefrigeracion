@@ -84,7 +84,15 @@
     }
 
     .service_section .box {
-        margin: 25px 0;
+        margin: 0;
+    }
+
+    .service_section .box.b-2 .detail-box p{
+        margin-bottom: 0;
+    }
+
+    .service_section .detail-box{
+        height: 70px;
     }
 
     .info_section .info-nav ul {
@@ -109,7 +117,7 @@
     width:40px;
     height:40px;
     bottom:40px;
-    right:40px;
+    right:20px;
     background-color:#25d366;
     color:#FFF;
     border-radius:50px;
@@ -127,7 +135,7 @@
     width:40px;
     height:40px;
     bottom:85px;
-    right:40px;
+    right:20px;
     background-color:#4378ec;
     color:#FFF;
     border-radius:50px;
@@ -145,7 +153,7 @@
     width:40px;
     height:40px;
     bottom:130px;
-    right:40px;
+    right:20px;
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
@@ -165,7 +173,7 @@
     width:40px;
     height:40px;
     bottom:175px;
-    right:40px;
+    right:20px;
     background-color: #000000;
     border-radius:50px;
     border: #3a3a3a solid 1px;
@@ -290,11 +298,40 @@
     }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .service_container .row-service .col-md-3{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        height: auto;
+    }
+
+    .service_section .detail-box h6 {
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .info_section h4 {
+        display: none;
+    }
+    .info_section .info-nav ul {
+        display: none;
+    }
+    .info_section .col-md-3:not(:nth-last-child(1)) {
+        margin-bottom: 0;
+    }
+    .footer_section {
+        padding: 0;
+        font-size: 10px;
+    }
+    .info_section .info-logo p{
+        display: none;
+    }
+    
+
+}
 
 @media (max-width: 450px) {
     .service_section .img-box img {
-        height: 200px;
+        height: 280px;
     }
     .titulo-servicios {
         font-size: 20px ;
@@ -310,13 +347,15 @@
         font-size: 3rem;
     }
 
-    element {}
+    .service_section .img-box img {
+        height: 250px;
+    }
 
     .custom_heading-container h3 {
 
         text-transform: uppercase;
         font-weight: bold;
-        color: #fffcfc;
+        color: #080808;
         position: relative;
 
     }

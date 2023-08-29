@@ -505,15 +505,21 @@ a:focus {
   padding: 45px 0 0 0;
 }
 
+.service_container .row-service .col-md-3{
+  padding-bottom: 0;
+}
+
 .text-nuestroservicio {
   color: #000;
 }
 
-.service_section .box.b-2 .detail-box {
+.service_section .box .b-2 .detail-box {
   text-align: center;
   width: 100%;
   overflow: hidden;
 }
+
+
 
 .service_section .box.b-2 .detail-box p {
   color: #000;
@@ -963,6 +969,10 @@ a:focus {
   margin: 5px 0;
 }
 
+.info_section .col-md-3{
+  padding-left: 10px;
+}
+
 /* footer section*/
 .footer_section {
   background-color: #ffffff;
@@ -972,6 +982,7 @@ a:focus {
 }
 
 .footer_section p {
+  background-color: #f8f5f5;
   color: #171717;
   margin: 0;
   text-align: center;
@@ -1120,6 +1131,10 @@ a:focus {
 .imagen-pdf:hover {
   width: 23px;
   height: 23px;
+}
+
+.social-box {
+  font-size: 30px;
 }
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
