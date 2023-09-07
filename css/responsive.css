@@ -151,6 +151,11 @@
         height: 300px;
     }
 
+    .text-nuestroservicio {
+        text-align: justify;
+        margin: 20px;
+    }
+
     /* iconos flotantes redes sociales */
     .whatsapp {
     position:fixed;
@@ -347,6 +352,13 @@
     .acercade {
         padding-top: 0px;
     }
+    .button-masProductos-btn {
+        font-size: 15px;
+        color: #fffcfc;
+        border-radius: 10px;
+        background-color: #004e92;
+        padding: 7px;
+    }
     
 }
 
@@ -432,7 +444,11 @@
     }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 390px) {
+    .testimonials {
+        min-height: 300px;
+    }
+}
 
 @media (min-width: 1200px) {
     .container {

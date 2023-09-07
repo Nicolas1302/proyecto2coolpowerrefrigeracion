@@ -23,9 +23,16 @@ blank - for classes that set a margin or padding on all 4 sides of the element
 */
 
 
+
 @font-face {
   font-family: 'Bungee_Inline';
   src: url(../font/Bungee_Inline/BungeeInline-Regular.ttf);
+}
+
+
+.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 
@@ -150,7 +157,7 @@ body {
 .texto-logo-acercadenosotros{
   display: flex;
   justify-content: space-around;
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
   flex-wrap: nowrap;
   height: 350px;
   
@@ -173,7 +180,8 @@ body {
 }
 
 .imagen-acerca {
-  width: 85%;
+  width: 75%;
+  border-radius: 15px;
 }
 
 .imagen-acerca-sinfondo {
@@ -594,13 +602,13 @@ a:focus {
   font-weight: bold;
 }
 
-.service_section .detail-box .btn-box a {
+/* .service_section .detail-box .btn-box a {
   color: #ff4f5a;
 }
 
 .service_section .detail-box .btn-box hr {
   background-color: #ff4f5a;
-}
+} */
 
 /* .service_section::before {
   content: "";
@@ -1017,8 +1025,8 @@ a:focus {
 /* footer section*/
 .footer_section {
   background-color: #ffffff;
-  padding: 20px;
   font-family: "Poppins", sans-serif;
+  font-size: 13px;
   font-weight: 500;
 }
 
@@ -1156,7 +1164,6 @@ a:focus {
 
 .button-masProductos-btn {
   text-align: center;
-  font-size: 20px;
   color: #000000;
 }
 
@@ -1232,18 +1239,18 @@ a:focus {
 }
 .dots label {
   display: block;
-  height: 5px;
-  width: 5px;
+  height: 15px;
+  width: 15px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: #494653;
-  margin: 7px;
+  background-color: #76757a;
+  margin: 15px;
   transition: transform 0.2s, color 0.2s;
 }
 /* First */
 #t-1:checked ~ .dots label[for="t-1"] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: #000000;
 }
 #t-1:checked ~ .dots label[for="t-2"] {
   transform: scale(1.5);
@@ -1272,7 +1279,7 @@ a:focus {
 }
 #t-2:checked ~ .dots label[for="t-2"] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: #000000;
 }
 #t-2:checked ~ .dots label[for="t-3"] {
   transform: scale(1.5);
@@ -1300,7 +1307,7 @@ a:focus {
 }
 #t-3:checked ~ .dots label[for="t-3"] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: #000000;
 }
 #t-3:checked ~ .dots label[for="t-4"] {
   transform: scale(1.5);
@@ -1327,7 +1334,7 @@ a:focus {
 }
 #t-4:checked ~ .dots label[for="t-4"] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: #000000;
 }
 #t-4:checked ~ .dots label[for="t-5"] {
   transform: scale(1.5);
@@ -1354,7 +1361,7 @@ a:focus {
 }
 #t-5:checked ~ .dots label[for="t-5"] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: #000000;
 }
 #t-5:checked ~ .testimonials label[for="t-1"] {
   transform: translateX(-1200px) translateZ(-360px) rotateY(45deg);
