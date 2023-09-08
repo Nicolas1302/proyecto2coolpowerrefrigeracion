@@ -395,7 +395,15 @@
     .service_container {
         display: none;
     }
-    
+    .bbb_viewed_title{
+        font-size: 20px;
+    }
+    .bbb_viewed_title1{
+        font-size: 12px;
+    }
+    .bbb_viewed_slider_container{
+        padding-left: 4%;
+    }
     
 
 }
