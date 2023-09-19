@@ -32,11 +32,15 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilos.css">
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
   
   <!-- icono -->
   <link rel="shortcut icon" href="./images/logo-sinfondo.png">
+
+  <script src="js/jquery-3.2.1.js"></script>
+	<script src="js/script1.js"></script>
 </head>
 
 <body>
@@ -89,7 +93,7 @@
     
     <section class="work_section layout_padding">
         <div class="container">
-          <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0"> <!--buscador-->
+          <!-- <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0"> 
             <div class="nav-buscador">
               <input class="input-buscador" id="buscador" type="text" placeholder="Buscar">
               <div class="btn-buscador">
@@ -101,16 +105,105 @@
             <h3 class=" ">
                 PRODUCTOS
             </h3>
-          </div>
+          </div> -->
           
         </div>
 
-        <div class="listado-articulos"> <!-- Start listado-->
+        <div class="wrap">
+          <h1>PRODUCTOS</h1>
+          <div class="store-wrapper">
+            <div class="category_list">
+              <a href="#" class="category_item" category="all">Todo</a>
+              <a href="#" class="category_item" category="caños">Caños</a>
+              <a href="#" class="category_item" category="mangueras">Mangueras</a>
+              <a href="#" class="category_item" category="cables">Cables</a>
+              <a href="#" class="category_item" category="cobertores">Cobertores</a>
+              <a href="#" class="category_item" category="kitintalacion">kit-intalacion</a>
+              <a href="#" class="category_item" category="mensulas">Mensulas</a>
+            </div>
+            <section class="products-list">
+              <div class="product-item" category="caños">
+                <img src="images/novedades-caño3.jpeg" alt="">
+                <a href="#">Caño Cobre 1/4 x 1Mts</a>
+              </div>
+              <div class="product-item" category="caños">
+                <img src="images/novedades-caño2.jpeg" alt="">
+                <a href="#">Caño Cobre 3/8 x 1Mts</a>
+              </div>
+              <div class="product-item" category="caños">
+                <img src="images/novedades-caño1.jpeg" alt="">
+                <a href="#">Caño Cobre 1/2 x 1Mts</a>
+              </div>
+              <div class="product-item" category="mangueras">
+                <img src="images/novedades-manguera1.jpeg" alt="">
+                <a href="#">Manguera Cristal x 1Mts</a>
+              </div>
+              <div class="product-item" category="caños">
+                <img src="images/novedades-caño6.jpeg" alt="">
+                <a href="#">Caño Cobre 1/4 x 15Mts</a>
+              </div>
+              <div class="product-item" category="caños">
+                <img src="images/novedades-caño5.jpeg" alt="">
+                <a href="#">Caño Cobre 3/8 x 15Mts</a>
+              </div>
+              <div class="product-item" category="caños">
+                <img src="images/novedades-caño4.jpeg" alt="">
+                <a href="#">Caño Cobre 1/2 x 15Mts</a>
+              </div>
+              <div class="product-item" category="mangueras">
+                <img src="images/novedades-mancristal.jpeg" alt="">
+                <a href="#">Manguera Cristal x 25Mts</a>
+              </div>
+              <div class="product-item" category="cables">
+                <img src="images/novedades-cable-metro1-5.jpeg" alt="">
+                <a href="#">Cable T/T 5 X 1,5 x 1Mts</a>
+              </div>
+              <div class="product-item" category="cables">
+                <img src="images/novedades-cablemetro-2-5.jpeg" alt="">
+                <a href="#">Cable T/T 5x2,5 x 1Mt</a>
+              </div>
+              <div class="product-item" category="cables">
+                <img src="images/novedades-cablerollo-1-5.jpeg" alt="">
+                <a href="#">Cable T/T 5x1,5 x 100mts</a>
+              </div>
+              <div class="product-item" category="cables">
+                <img src="images/novedades-cablerollo-2-5.jpeg" alt="">
+                <a href="#">Cable T/T 5x2,5 x 100mts</a>
+              </div>
+              <div class="product-item" category="cobertores">
+                <img src="images/novedades-tuboblindado-1-4.jpeg" alt="">
+                <a href="#">Funda Ais.Blind 1/4 x 2Mts</a>
+              </div>
+              <div class="product-item" category="cobertores">
+                <img src="images/novedades-tuboblindado-3-8.jpeg" alt="">
+                <a href="#">Funda Ais.Blind 3/8 x 2Mts</a>
+              </div>
+              <div class="product-item" category="cobertores">
+                <img src="images/novedades-tuboblindado-1-2.jpeg" alt="">
+                <a href="#">Funda Ais.Blind 1/2 x 2Mts</a>
+              </div>
+              <div class="product-item" category="kitintalacion">
+                <img src="images/kit-intalacion1.jpeg" alt="">
+                <a href="#">Kit instalacion 1</a>
+              </div>
+              <div class="product-item" category="mensulas">
+                <img src="images/mensula1.jpeg" alt="">
+                <a href="#">Mensula 52 Cm</a>
+              </div>
+              <div class="product-item" category="mensulas">
+                <img src="images/mensula2.jpeg" alt="">
+                <a href="#">Mensula 42 Cm</a>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- <div class="listado-articulos">
   
           <ul id="listaArticulos"> 
 
               <li class="articulo">
-                <div class="box"> <!-- b-1 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1">
                     <div>
                       Ver Detalles
@@ -125,7 +218,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-2 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -140,7 +233,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-3 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -155,7 +248,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-4 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -170,7 +263,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-1 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1">
                     <div>
                       Ver Detalles
@@ -185,7 +278,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-2 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -200,7 +293,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-3 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -215,7 +308,7 @@
               </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-4 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -230,7 +323,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-1 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1">
                     <div>
                       Ver Detalles
@@ -245,7 +338,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-2 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -260,7 +353,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-3 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -275,7 +368,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-4 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -290,7 +383,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-1 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1">
                     <div>
                       Ver Detalles
@@ -305,7 +398,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-2 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -320,7 +413,7 @@
                 </div>  
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-3 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -335,7 +428,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-4 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -350,7 +443,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-4 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -365,7 +458,7 @@
                 </div>
               </li>
               <li class="articulo">
-                <div class="box"> <!-- b-4 si se quiere mover-->
+                <div class="box"> 
                   <div class="img-box1 ">
                     <div>
                       Ver Detalles
@@ -381,9 +474,9 @@
               </li>
           </ul>
   
-        </div> <!--end listado producto-->
+        </div> 
 
-    </section>
+    </section> -->
 
   </div>  
 

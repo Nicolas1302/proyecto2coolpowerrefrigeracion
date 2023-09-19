@@ -13,7 +13,7 @@
         line-height: 26px;
     }
     .service_section .img-box img {
-        height: 150px;
+        height: 170px;
     }
     #listaArticulos {
         grid-template-columns: auto auto auto;
@@ -28,7 +28,19 @@
     .service_section .img-box img {
         height: 130px;
     }
-    
+    .img-box-left{
+        width: 300px;
+    }
+      
+    .img-box-right{
+        width: 300px;
+    }
+    .descripcion-service-left{
+        font-size: 11px;
+    }
+    .descripcion-service-right{
+        font-size: 11px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -99,6 +111,11 @@
     .acerca-de {
         width: 100%;
     }
+    .service_section .detail-box {
+        height: 40px;
+        margin-top: 5px;
+        font-size: 14px;
+      }
 }
 
 @media (max-width: 768px) {
@@ -144,17 +161,39 @@
     .client_section .client_container {
         width: 100%;
     }
+    
 }
 
 @media (max-width: 767px) {
     .service_section .img-box img {
-        height: 300px;
+        height: 280px;
+    }
+    .imagen-left{
+        width: 70%;
+    }
+    .service_container{
+        margin-left: 0;
     }
 
     .text-nuestroservicio {
         text-align: justify;
         margin: 20px;
     }
+
+    /* .row{
+        position: relative;
+    } */
+
+    .display-service-desktop{
+        display: none;
+    }
+
+    .display-service-mobile{
+        display: block;
+        
+    }
+
+    
 
     /* iconos flotantes redes sociales */
     .whatsapp {
@@ -302,11 +341,80 @@
         width: 60%;
         /* vertical-align: baseline; */
     }
+    .img-box-right{
+        width: 650px;
+        text-align: right;
+    }
+    .img-box-left{
+        width: 650px;
+        text-align: left;
+    }
+    .imagen-left-mobile{
+        width: 35%;
+        -webkit-box-shadow: 0px 0px 7px 5px rgba(63, 79, 255, 0.91); 
+        box-shadow: 0px 0px 7px 5px rgba(63, 79, 255, 0.91);
+    }
+    .descripcion-insumo{
+        order: 1;
+    }
+    .imagen-lavarropas{
+        order: 1;
+    }
+    /* .box-right{
+        justify-content: end;
+    }*/
+
+    .imagen-right{
+        padding-bottom: 10px;
+        text-align: right;
+    }
+    .imagen-right-mobile{
+        text-align: right;
+        width: 35%;
+        -webkit-box-shadow: 0px 0px 7px 5px rgba(0,17,209,0.91); 
+        box-shadow: 0px 0px 7px 5px rgba(0,17,209,0.91);
+    }
 
 
 }
 
+@media (max-width: 710px) {
+    .img-box-right{
+        width: 550px;
+    }
+    .img-box-left{
+        width: 550px;
+    }
+    .imagen-left-mobile{
+        width: 40%;
+    }
+
+    .imagen-right-mobile{
+        width: 40%;
+    }
+}
+
+@media (max-width: 660px) {
+    .imagen-left-mobile{
+        width: 46%;
+    }
+
+    .imagen-right-mobile{
+        width: 46%;
+    }
+}
+
 @media (max-width: 576px) {
+    .slider {
+        display: block;
+    }
+    .service_container1 {
+        display: none;
+    }
+    .testimonials {
+        top: 20px;
+        min-height: 490px;
+      }
     .slider_section .detail-box h1 {
         font-size: 3.5rem;
     }
@@ -359,7 +467,77 @@
         background-color: #004e92;
         padding: 7px;
     }
+    .imagen-left-mobile{
+        width: 40%;
+    }
+
+    .imagen-right-mobile{
+        width: 40%;
+    }
+    .img-box-right{
+        width: 500px;
+    }
+    .img-box-left{
+        width: 500px;
+    }
+    .service_section .img-box img{
+        height: 240px;
+    }
     
+}
+
+@media (max-width: 544px) {
+    .imagen-left-mobile{
+        width: 40%;
+    }
+
+    .imagen-right-mobile{
+        width: 40%;
+    }
+    .img-box-right{
+        width: 450px;
+        justify-content: center;
+    }
+    .img-box-left{
+        width: 450px;
+    }
+    
+    .service_section .detail-box-right h6{
+        text-align: right;
+    }
+    .service_section .detail-box-left h6{
+        text-align: left;
+    }
+    
+    .service_section .img-box img {
+        height: 200px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .imagen-left-mobile{
+        margin-bottom: 20px;
+    }
+
+    .imagen-right-mobile{
+        margin-bottom: 20px;
+    }
+    .service_section .detail-box-right h6{
+        text-align: right;
+    }
+    .service_section .detail-box-left h6{
+        text-align: left;
+    }
+    .img-box-right{
+        width: 400px;
+    }
+    .img-box-left{
+        width: 400px;
+    }
+    /* .imagen-servicio {
+        height: 80%;
+      } */
 }
 
 @media (max-width: 480px) {
@@ -389,12 +567,7 @@
     .info_section .info-logo p{
         display: none;
     }
-    .slider {
-        display: block;
-    }
-    .service_container {
-        display: none;
-    }
+    
     .bbb_viewed_title{
         font-size: 20px;
     }
@@ -404,13 +577,31 @@
     .bbb_viewed_slider_container{
         padding-left: 4%;
     }
-    
+}
 
+@media (max-width: 472px) {
+    .imagen-left-mobile{
+        width: 33%;
+    }
+
+    .imagen-right-mobile{
+        width: 33%;
+    }
+    .service_section .img-box img{
+        height: 160px;
+    }
 }
 
 @media (max-width: 450px) {
+    .imagen-left-mobile{
+        width: 50%;
+    }
+
+    .imagen-right-mobile{
+        width: 50%;
+    }
     .service_section .img-box img {
-        height: 280px;
+        height: 185px;
     }
     .titulo-servicios {
         font-size: 20px ;
@@ -418,10 +609,30 @@
 
     .service_section .detail-box {
         margin-top: 0;
-      }
+    }
+    .img-box-left{
+        width: 400px;
+    }
+      
+    .img-box-right{
+        width: 400px;
+    }
 }
 
 @media (max-width: 420px) {
+    .imagen-left-mobile{
+        margin-bottom: 30px;
+    }
+
+    .imagen-right-mobile{
+        margin-bottom:30px;
+    }
+    .service_section .detail-box-right h6{
+        font-size: 14px;
+    }
+    .service_section .detail-box-left h6{
+        font-size: 14px;
+    }
     .slider_section .detail-box h1 {
         font-size: 3rem;
     }
@@ -449,6 +660,25 @@
     .imagen-acerca {
         width: 80%;
         vertical-align: baseline;
+    }
+}
+
+@media (max-width: 400px) {
+    .service_section .img-box img {
+        height: 220px;
+    }
+    .imagen-left-mobile{
+        margin-bottom: 30px;
+    }
+
+    .imagen-right-mobile{
+        margin-bottom:30px;
+    }
+    .service_section .detail-box-right h6{
+        font-size: 14px;
+    }
+    .service_section .detail-box-left h6{
+        font-size: 14px;
     }
 }
 
