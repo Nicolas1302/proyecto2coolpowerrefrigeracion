@@ -37,9 +37,18 @@
     }
     .descripcion-service-left{
         font-size: 11px;
+        padding-left: 5px;
+    }
+    .descripcion-service-left p{
+        margin-bottom: 0;
     }
     .descripcion-service-right{
         font-size: 11px;
+        text-align: left;
+    }
+    .descripcion-service-right p{
+        margin-bottom: 0;
+        padding-left: 5px;
     }
 }
 
@@ -176,8 +185,12 @@
     }
 
     .text-nuestroservicio {
+        padding: 10px;
         text-align: justify;
-        margin: 20px;
+        font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555555;
     }
 
     /* .row{
@@ -594,14 +607,14 @@
 
 @media (max-width: 450px) {
     .imagen-left-mobile{
-        width: 50%;
+        width: 38%;
     }
 
     .imagen-right-mobile{
-        width: 50%;
+        width: 38%;
     }
     .service_section .img-box img {
-        height: 185px;
+        height: 165px;
     }
     .titulo-servicios {
         font-size: 20px ;
@@ -617,6 +630,9 @@
     .img-box-right{
         width: 400px;
     }
+    .testimonials {
+        top: 20px;
+        min-height: 390px;
 }
 
 @media (max-width: 420px) {
@@ -637,8 +653,24 @@
         font-size: 3rem;
     }
 
+    .img-box-left{
+        width: 360px;
+    }
+      
+    .img-box-right{
+        width: 360px;
+    }
+
+    .imagen-left-mobile{
+        width: 41%;
+    }
+
+    .imagen-right-mobile{
+        width: 41%;
+    }
+
     .service_section .img-box img {
-        height: 250px;
+        height: 180px;
     }
 
     .custom_heading-container h3 {
@@ -665,7 +697,7 @@
 
 @media (max-width: 400px) {
     .service_section .img-box img {
-        height: 220px;
+        height: 160px;
     }
     .imagen-left-mobile{
         margin-bottom: 30px;

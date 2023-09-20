@@ -20,6 +20,7 @@
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/aos.css">
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
@@ -102,14 +103,14 @@
               </p>
             </div>
            <div class="flex-acercade">
-              <div class="acerca-de">
+              <div class="acerca-de" data-aos="fade-right">
                 <img class="imagen-acerca-sinfondo" src="images/logo-sinfondo.png" alt="">
               </div>
            </div>
           </div>
           <div class="texto-logo-acercadenosotros">
             <div class="flex-acercade f0">
-              <div class="acerca-de">
+              <div class="acerca-de" data-aos="fade-left">
                 <img class="imagen-acerca" src="images/imagen-acercade.jpeg" alt="">
               </div>
            </div>
@@ -126,7 +127,7 @@
               </p>
             </div>
            <div class="flex-acercade">
-              <div class="acerca-de">
+              <div class="acerca-de" data-aos="fade-right">
                 <img class="imagen-acerca" src="images/imagen-acercade3.jpg" alt="">
               </div>
            </div>
@@ -260,5 +261,8 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-
+  <script src="./javascript/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

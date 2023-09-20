@@ -21,7 +21,7 @@
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- icono redes Sociales -->
-  
+  <link rel="stylesheet" href="./css/aos.css">
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
@@ -125,41 +125,51 @@
             <div class="col-md-6">
               <div >
                 <div class="box b-2 box-right">
-                  <div class="img-box justify-content-center img-box-right">
+                  <div class="img-box justify-content-center img-box-right" data-aos="zoom-in-left">
                     <div class="descripcion-service-right">
                       <h6>
-                        Mantenimiento A/C
+                        Instalacion y Mantenimiento A/C
                       </h6>
-                      <p>limpieza, Carga de Gas, Cambio de Capacitores.</p>
+                      <p>-limpieza en general.</p>
+                      <p>-Carga de Gas.</p>
+                      <p>-Cambio de Capacitores.</p>
+                      <p>-Diagnosticos</p>
+                      <p>-Cambio de Placa electronica</p>
                     </div>
                     <img class="imagen-servicio" src="images/nuestroservicio-refrigeracion.jpeg" alt="">
                   </div>
                   <div class="detail-box detail-box-right">
-                    <h6>
+                    <!-- <h6>
                       Mantenimiento A/C
                     </h6>
-                    <!-- <p>
+                    <p>
                       limpieza, Carga de Gas, Cambio de Capacitores.
-                    </p>-->
+                    </p> -->
                   </div>
                 </div>
               </div>
               <div>
                 <div class="box b-2">
-                  <div class="img-box img-box-left">
+                  <div class="img-box img-box-left" data-aos="zoom-in-right">
                     <div class="descripcion-service-left descripcion-insumo">
                       <h6>
                         Venta Insumos Refrigeración
                       </h6>
-                      <p>Solicitar Presupuestos.</p>
+                      <p>-Caños de Cobre</p>
+                      <p>-Mensulas</p>
+                      <p>-Mangueras</p>
+                      <p>-Cinta PVC</p>
+                      <p>-Cobertores</p>
+                      <p>-Kit de instalación</p>
+                      <p>-Solicitar Presupuestos.</p>
                     </div>
                     <img class="imagen-servicio" src="images/servicio-venta.jpg" alt="">
                   </div>
                   <div class="detail-box detail-box-left">
-                    <h6>
+                    <!-- <h6>
                        Venta Insumos Refrigeración
                     </h6>
-                    <!-- <p>
+                    <p>
                       Solicitar Presupuestos.
                     </p> -->
                   </div>
@@ -169,20 +179,25 @@
             <div class="col-md-6">
               <div>
                 <div class="box b-2">
-                  <div class="img-box img-box-right">
+                  <div class="img-box img-box-right" data-aos="zoom-in-left">
                     <img class="imagen-servicio imagen-lavarropas" src="images/img-repLavarropas2.jpg" alt="">
                     <div class="descripcion-service-right">
                       <h6>
-                        Reparación Lavarropas
+                        Reparación y Mantenimiento de Lavarropas
                       </h6>
-                      <p>Cambio de ruleman, Raparación en General.</p>
+                      <p>-Cambio de Placa/Programa</p>
+                      <p>-Cambio de Bomba de Desagote.</p>
+                      <p>-Cambio de ruleman.</p>
+                      <p>-Cambio de correa</p>
+                      <p>-Reparacion en General</p>
+                      
                     </div>
                   </div>
                   <div class="detail-box detail-box-right">
-                    <h6>
+                    <!-- <h6>
                       Reparación Lavarropas
                     </h6>
-                    <!-- <p>
+                    <p>
                       Cambio de ruleman, Raparación en General.
                     </p> -->
                   </div>
@@ -190,27 +205,31 @@
               </div>
               <div>
                 <div class="box b-2">
-                  <div class="img-box img-box-left">
+                  <div class="img-box img-box-left" data-aos="zoom-in-right">
                     <img class="imagen-servicio" src="images/nuestroservicio-heladeras.jpeg " alt="">
                     <div class="descripcion-service-left">
                       <h6>
-                        Venta Insumos Refrigeración
+                        Mantenimiento y Reparacion de Heladeras.
                       </h6>
-                      <p>Solicitar Presupuestos.</p>
+                      <p>-Limpieza en General</p>
+                      <p>-Cambio de Burletes</p>
+                      <p>-Cambio de Motor</p>
+                      <p>-Iluminacion Interior</p>
+                      <p>-Solicitar Presupuestos.</p>
                     </div>
                   </div>
                   <div class="detail-box detail-box-left">
-                    <h6>
+                    <!-- <h6>
                       Reparación de Heladeras
                     </h6>
-                    <!-- <p>
+                    <p>
                       Limpieza, Mantenimiento, Reparacion en General.
                     </p> -->
                   </div>
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </section>
@@ -369,6 +388,10 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script src="./javascript/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
