@@ -496,7 +496,22 @@
     .service_section .img-box img{
         height: 240px;
     }
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+       
+    }
     
+    .modal-sm {
+        --bs-modal-width: 250px;
+        justify-content: center;
+    }
+    
+    .modal-description {
+        padding: 10px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 544px) {
@@ -633,6 +648,7 @@
     .testimonials {
         top: 20px;
         min-height: 390px;
+    }
 }
 
 @media (max-width: 420px) {

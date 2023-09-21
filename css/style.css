@@ -1656,6 +1656,34 @@ a:focus {
 {
     display: inline-block;
 }
+.fw-bold1{
+  -webkit-font-smoothing: antialiased;
+	font-family: Proxima Nova,-apple-system,Helvetica Neue,helvetica,roboto,arial,sans-serif;
+	color: #737373;
+	font-size: 15px;
+  margin-bottom: 7px;
+	line-height: 1.2;
+}
+
+.modal-description{
+  width: 350px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+ 
+}
+
+.modal-sm {
+  --bs-modal-width: 700px;
+}
+
+.modal-description {
+  padding: 20px 20px 20px 2px;
+  width: 100%;
+}
 
 
 
