@@ -151,10 +151,12 @@ body{
 }
 
 @media screen and (max-width: 600px){
+	.products-list {
+		justify-content:flex-start;
+	}
 
 	.products-list .product-item{
 		width: 45%;
-		justify-content: space-between;
 	}
 
 	.products-list .product-item:nth-child(3n+1){
