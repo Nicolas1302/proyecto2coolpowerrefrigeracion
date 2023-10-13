@@ -4,7 +4,7 @@ $(document).ready(function()
    
         if($('.bbb_viewed_slider').length)
         {
-            var viewedSlider = $('.bbb_viewed_slider');
+            let viewedSlider = $('.bbb_viewed_slider');
 
             viewedSlider.owlCarousel(
             {
@@ -26,7 +26,7 @@ $(document).ready(function()
 
             if($('.bbb_viewed_prev').length)
             {
-                var prev = $('.bbb_viewed_prev');
+                let prev = $('.bbb_viewed_prev');
                 prev.on('click', function()
                 {
                     viewedSlider.trigger('prev.owl.carousel');
@@ -35,7 +35,7 @@ $(document).ready(function()
 
             if($('.bbb_viewed_next').length)
             {
-                var next = $('.bbb_viewed_next');
+                let next = $('.bbb_viewed_next');
                 next.on('click', function()
                 {
                     viewedSlider.trigger('next.owl.carousel');

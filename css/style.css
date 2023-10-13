@@ -1665,6 +1665,23 @@ a:focus {
 	line-height: 1.2;
 }
 
+.fw-bold2{
+  -webkit-font-smoothing: antialiased;
+	font-family: Proxima Nova,-apple-system,Helvetica Neue,helvetica,roboto,arial,sans-serif;
+	color: #737373;
+	font-size: 12px;
+  margin-bottom: 4px;
+	line-height: 1.2;
+}
+
+.precio-producto{
+  -webkit-font-smoothing: antialiased;
+	font-family: Proxima Nova,-apple-system,Helvetica Neue,helvetica,roboto,arial,sans-serif;
+	color: #000d81;
+	font-size: 30px;
+  margin-bottom: 4px;
+}
+
 .modal-description{
   width: 350px;
 }
@@ -1683,6 +1700,10 @@ a:focus {
 .modal-description {
   padding: 20px 20px 20px 2px;
   width: 100%;
+}
+
+.align-middle{
+  line-height: 60px;
 }
 
 
