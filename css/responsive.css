@@ -569,6 +569,15 @@
 }
 
 @media (max-width: 500px) {
+    .img_slide_new {
+        width: 90%;
+    }
+    .img_slide_new_valvula{
+        width: 80%;
+    }
+    #myCarousel h4{
+        font-size:35px;
+    }    
     .imagen-left-mobile{
         margin-bottom: 20px;
     }
@@ -604,9 +613,9 @@
         margin-top: 5px;
         margin-bottom: 0;
     }
-    .description_tester{
+    /* .description_tester{
         display: none;
-    }
+    } */
     .info_section h4 {
         display: none;
     }
