@@ -176,10 +176,16 @@ body {
   padding-top:35px;
   padding-left: 35px;
   text-align: justify;
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 1.42857143;
-  color: #555555;
+  color: #555555; */
+
+  font-size: 20px;
+  letter-spacing: .3px;
+  color: #616161;
+  line-height: 1.75em;
+  font-weight: 300;
 }
 
 .imagen-acerca {
@@ -1894,12 +1900,15 @@ animation-name: slideInRight;
 /* start tester section*/
 
 .imagen-tester {
-  width: 75%;
+  width: 95%;
   border-radius: 15px;
 }
 
-.body1{
-  position: relative;
+.bg-tester{
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 /*  carroucel tester end */
 
