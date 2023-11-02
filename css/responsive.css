@@ -127,9 +127,12 @@
     .imagen-acerca {
         width: 40%;
     }
-    .acerca-de {
-        width: 100%;
+    .imagen-tester {
+        width: 30%;
     }
+    /* .acerca-de {
+        width: 100%;
+    } */
     .service_section .detail-box {
         height: 40px;
         margin-top: 5px;
@@ -372,6 +375,9 @@
     .imagen-acerca {
         width: 60%;
         /* vertical-align: baseline; */
+    }
+    .imagen-tester {
+        width: 60%;
     }
     .img-box-right{
         width: 650px;
@@ -745,6 +751,10 @@
     .imagen-acerca {
         width: 80%;
         vertical-align: baseline;
+    }
+    .imagen-tester {
+        width: 70%;
+        margin-top: -30px
     }
 }
 

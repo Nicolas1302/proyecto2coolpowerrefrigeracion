@@ -1891,6 +1891,16 @@ to {
 animation-name: slideInRight;
 }
 
+/* start tester section*/
+
+.imagen-tester {
+  width: 75%;
+  border-radius: 15px;
+}
+
+.body1{
+  position: relative;
+}
 /*  carroucel tester end */
 
 /* end footer section*/
