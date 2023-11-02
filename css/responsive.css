@@ -5,7 +5,13 @@
     }
 }
 
+@media (max-width: 1260px) {
+    #myCarousel{
+        height: 500px;
+    }
+}
 
+/*  */
 
 @media (max-width: 1199px){
     .top-bar{
@@ -21,6 +27,9 @@
 }
 
 @media (max-width: 1060px) {
+    #myCarousel{
+        height: 400px;
+    }
     .top-bar{
         display: none;
     }
@@ -53,6 +62,7 @@
 }
 
 @media (max-width: 992px) {
+    
     .custom_nav-container .nav_search-btn {
         display: none;
     }
@@ -175,13 +185,13 @@
 
 @media (max-width: 767px) {
     #myCarousel{
-        height: 90%;
+        height: auto;
     }
     .img_slide_new {
         width: 50%;
     }
     .img_slide_new_valvula{
-        width: 40%;
+        width: 35%;
     }
     .service_section .img-box img {
         height: 280px;
@@ -524,6 +534,12 @@
 }
 
 @media (max-width: 544px) {
+    .img_slide_new {
+        width: 70%;
+    }
+    .img_slide_new_valvula{
+        width: 60%;
+    }
     .imagen-left-mobile{
         width: 40%;
     }
