@@ -1122,7 +1122,7 @@ a:focus {
   width:60px;
   height:60px;
   bottom:40px;
-  right:40px;
+  right:20px;
   background-color:#25d366;
   color:#FFF;
   border-radius:50px;
@@ -1139,8 +1139,8 @@ a:focus {
   position:fixed;
   width:60px;
   height:60px;
-  bottom:120px;
-  right:40px;
+  bottom:105px;
+  right:20px;
   background-color:#4378ec;
   color:#FFF;
   border-radius:50px;
@@ -1157,8 +1157,8 @@ a:focus {
   position:fixed;
   width:60px;
   height:60px;
-  bottom:200px;
-  right:40px;
+  bottom:170px;
+  right:20px;
   background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   box-shadow: 0px 3px 10px rgba(0,0,0,.25);
@@ -1177,8 +1177,8 @@ a:focus {
   position:fixed;
   width:60px;
   height:60px;
-  bottom:280px;
-  right:40px;
+  bottom:235px;
+  right:20px;
   background-color: #000000;
   border-radius:50px;
   border: #3a3a3a solid 2px;
