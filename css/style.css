@@ -188,9 +188,27 @@ body {
   font-weight: 300;
 }
 
+.acercade1{
+  padding-top:35px;
+  padding-left: 35px;
+  text-align: justify;
+  /* font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #555555; */
+
+  font-size: 20px;
+  letter-spacing: .3px;
+  color: #616161;
+  line-height: 1.75em;
+  font-weight: 300;
+}
+
 .imagen-acerca {
   width: 75%;
   border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 7px 5px rgba(0, 66, 209, 0.91); 
+  box-shadow: 0px 0px 7px 5px rgba(0,17,209,0.91);
 }
 
 .imagen-acerca-sinfondo {

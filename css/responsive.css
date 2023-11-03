@@ -123,6 +123,16 @@
         color: #555555;
     }
 
+    .acercade1{
+        padding-top:15px;
+        padding-left: 0;
+        text-align: justify;
+        font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.42857143;
+        color: #555555;
+    }
+
     .f1{
         order: 1;
     }
@@ -508,6 +518,11 @@
         padding: 10px 10px 0px 10px;
         margin-top: 32px;
     }
+
+    .acercade1 {
+        padding: 10px 10px 0px 10px;
+        margin-top: 52px;
+    }
     .button-masProductos-btn {
         font-size: 15px;
         color: #fffcfc;
@@ -765,11 +780,14 @@
     }
     .imagen-acerca-sinfondo {
         width: 50%;
-        margin-top: -30px;
+        margin-top: 0px;
+        margin-bottom: 40px;
     }
     .imagen-acerca {
-        width: 80%;
+        width: 70%;
         vertical-align: baseline;
+        margin-bottom: 30px;
+        
     }
     .imagen-tester {
         width: 75%;
