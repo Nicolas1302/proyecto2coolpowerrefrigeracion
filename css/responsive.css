@@ -102,7 +102,7 @@
 
 @media (max-width: 900px) {
     .form {
-        width: 50%;
+        width: 90%;
     }
     .texto-logo-acercadenosotros{
         flex-direction: column;
@@ -610,7 +610,7 @@
         text-align: left;
     }
     .imagen-tester {
-        width: 75%;
+        width: 70%;
     }
     .img_slide_new {
         width: 90%;
