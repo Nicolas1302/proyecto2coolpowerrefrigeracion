@@ -98,6 +98,16 @@
 
 }
 
+@media (max-width: 992px) {
+    .texto-logo-acercadenosotros {
+        height: 280px;
+        
+    }
+    .acercade1{
+        font-size: 13px;
+    }
+}
+
 @media (max-width: 980px) {
     .texto-logo-acercadenosotros {
         height: 230px;
@@ -799,11 +809,13 @@
         width: 50%;
         margin-top: 0px;
         margin-bottom: 40px;
+        margin-left: 70px;
     }
     .imagen-acerca {
         width: 70%;
         vertical-align: baseline;
         margin-bottom: 30px;
+        margin-left: 30px;
         
     }
     .imagen-tester {
