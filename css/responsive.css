@@ -101,6 +101,9 @@
 }
 
 @media (max-width: 900px) {
+    .form {
+        width: 50%;
+    }
     .texto-logo-acercadenosotros{
         flex-direction: column;
         height:400px;
