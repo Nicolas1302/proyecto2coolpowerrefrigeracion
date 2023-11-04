@@ -184,7 +184,7 @@ body {
 
   font-size: 20px;
   letter-spacing: .3px;
-  color: #616161;
+  color: #01018b;
   line-height: 1.75em;
   font-weight: 300;
 }
@@ -1923,14 +1923,24 @@ animation-name: slideInRight;
   border-radius: 15px;
 }
 
+.imagen-bolsa {
+  width: 95%;
+  border-radius: 15px;
+}
+.bolsa-transporte{
+  width: 80%;
+}
+
 .imagen-tester1 {
   width: 75%;
 }
 .bg-tester{
   position:relative; 
   z-index:1; /*background:url(https://i.imgur.com/6axE29k.jpg)*/ 
-  background:url(../images/fondo-prueba.avif) center center no-repeat; 
-  background-size:cover;
+  /* background:url(../images/fondo-prueba.avif) center center no-repeat; 
+  background-size:cover; */
+
+  background: #ffffff;
   
 }
 
@@ -1940,6 +1950,7 @@ animation-name: slideInRight;
   font-weight: bold;
   position: relative;
   margin-top: 20px;
+  color: #01018b;
 
 }
 
