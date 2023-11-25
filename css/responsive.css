@@ -65,6 +65,9 @@
     .imagen-tester{
         width: 70%;
     }
+    .imagen-valvula{
+        width: 70%;
+    }
     
     .imagen-bolsa{
         width: 70%;
@@ -162,6 +165,9 @@
         width: 40%;
     }
     .imagen-tester {
+        width: 30%;
+    }
+    .imagen-valvula {
         width: 30%;
     }
 
@@ -417,6 +423,9 @@
     .imagen-tester {
         width: 45%;
     }
+    .imagen-valvula {
+        width: 45%;
+    }
     .imagen-bolsa {
         width: 45%;
     }
@@ -632,6 +641,9 @@
     .imagen-tester {
         width: 70%;
     }
+    .imagen-valvula {
+        width: 55%;
+    }
     .imagen-bolsa {
         width: 70%;
         margin-top: -20px;
@@ -820,6 +832,10 @@
     }
     .imagen-tester {
         width: 75%;
+        margin-top: -30px
+    }
+    .imagen-valvula {
+        width: 60%;
         margin-top: -30px
     }
     .imagen-bolsa {

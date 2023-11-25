@@ -182,7 +182,7 @@ body {
   line-height: 1.42857143;
   color: #555555; */
 
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: .3px;
   color: #01018b;
   line-height: 1.75em;
@@ -1919,6 +1919,10 @@ animation-name: slideInRight;
 /* start tester section*/
 
 .imagen-tester {
+  width: 95%;
+  border-radius: 15px;
+}
+.imagen-valvula {
   width: 95%;
   border-radius: 15px;
 }
