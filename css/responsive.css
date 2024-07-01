@@ -493,12 +493,16 @@
 }
 
 @media (max-width: 576px) {
-    .slider {
-        display: block;
-    }
     .service_container1 {
         display: none;
     }
+    .slider {
+        display: block;
+    }   
+    .imagen-service-section{
+        background-size:calc(500px);
+        
+      }
     .testimonials {
         top: 20px;
         min-height: 490px;

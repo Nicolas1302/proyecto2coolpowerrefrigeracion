@@ -512,11 +512,6 @@ a:focus {
   /* background-image: url(../images/fondo1.jpeg);*/
   /* background-color: #000000; */
   background:#f6f6f7;
- 
-  
-
-
-  
 }
 
 .about_section {
@@ -564,13 +559,24 @@ a:focus {
   border-radius: 10px;
 }
 
-.service_section {
-  /* background-image: url(../images/fondo-nuestroservicios4.jpeg);
-  background-repeat:round; */
-  padding-top: 15px;
-  color: #ffffff;
-  position: relative;
+
+
+
+.imagen-service-section{
+  background-image: url(../images/prueba/servicio1.webp);
+  background-size:cover;
+  
 }
+
+
+
+.imagen_section {
+  padding-top: 15px;
+  position: relative;
+  
+}
+
+
 
 .service_section .custom_heading-container {
   margin-bottom: 15px;
@@ -578,7 +584,6 @@ a:focus {
 
 .service_section .service_container {
   padding: 45px 0 0 0;
-  position: relative;
   margin-bottom: 20px;
   
 }
@@ -590,6 +595,7 @@ a:focus {
 
 .service_container1{
   text-align: center;
+  
 }
 .text-nuestroservicio1{
   font-size: 15px;
@@ -677,13 +683,20 @@ a:focus {
 
 .service_section .img-box img {
   height: 230px;
-  -webkit-box-shadow: 0px 0px 7px 5px rgba(0, 66, 209, 0.91); 
-  box-shadow: 0px 0px 7px 5px rgba(0,17,209,0.91);
+  -webkit-box-shadow: 0px 0px 7px 5px rgba(128, 128, 128, 0.91); 
+  box-shadow: 0px 0px 7px 5px rgba(128, 128, 128, 0.91);
 }
+
+
 
 .service_section .detail-box {
   height: 75px;
   margin-top: 8px;
+}
+
+.detail-descriptions{
+  background-color: rgba(227, 229, 243, 0.91);
+  opacity: .9;
 }
 
 .service_section .detail-box h6 {
@@ -1235,21 +1248,27 @@ a:focus {
   }
 
 .carroucel1 {
-  background: #0000EE; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #1414ce, #010179);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #1414ce, #010179);
+  background-image: url(../images/prueba/imagen-producto1.jpg);
+  background-size: cover;
+  /*background: #0000EE;
+  background: -webkit-linear-gradient(to bottom, #1414ce, #010179); 
+  background: linear-gradient(to bottom, #1414ce, #010179);*/
 }
 
 .carroucel2 {
-  background: #ececec;
-  background: -webkit-linear-gradient(to bottom, #dddddd, #cccccc);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #dddddd, #cccccc);
+  background-image: url(../images/prueba/imagen-producto2.jpg);
+  background-size: cover;
+  /*background: #ececec;
+  background: -webkit-linear-gradient(to bottom, #dddddd, #cccccc); 
+  background: linear-gradient(to bottom, #dddddd, #cccccc);  */
 }
 
 .carroucel3 {
-  background: #0000EE; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #1414ce, #010179);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #1414ce, #010179);
+  background-image: url(../images/prueba/imagen-producto3.jpg);
+  background-size: cover;
+  /*background: #0000EE; 
+  background: -webkit-linear-gradient(to bottom, #1414ce, #010179); 
+  background: linear-gradient(to bottom, #1414ce, #010179);*/
 }
 
 .font-carroucel{
@@ -1291,7 +1310,6 @@ a:focus {
 .slider {
   display: none;
   width: 100%;
-  background-color: #f6f6f7;
   padding-top: 5px;
 }
 .slider input {
