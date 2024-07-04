@@ -496,13 +496,12 @@
     .service_container1 {
         display: none;
     }
-    .slider {
+    .container-service {
         display: block;
     }   
     .imagen-service-section{
-        background-size:calc(500px);
-        
-      }
+        background-repeat: no-repeat;
+    }
     .testimonials {
         top: 20px;
         min-height: 490px;
