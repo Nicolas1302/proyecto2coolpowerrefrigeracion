@@ -234,6 +234,9 @@
     #myCarousel{
         height: auto;
     }
+    #myCarousel_placa_lavarropas{
+        height: auto;
+    }
     .img_slide_new {
         width: 50%;
     }
@@ -660,6 +663,9 @@
     #myCarousel h4{
         font-size:35px;
     }    
+    #myCarousel_placa_lavarropas h4{
+        font-size:30px;
+    } 
     .imagen-left-mobile{
         margin-bottom: 20px;
     }
